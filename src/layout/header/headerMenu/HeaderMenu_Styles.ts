@@ -118,6 +118,9 @@ ${(props)=>props.isOpen && css<{isOpen : boolean}>`
   position: fixed;
   width: 200px;
   height: 200px;
+  top:-100px;
+  right: -100px;
+  flex-direction: column;
 
 
   span {
